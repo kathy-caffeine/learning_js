@@ -19,3 +19,5 @@ function getPrimes(){
         alert( i ); // простое число
     }
 }
+
+console.log('Hello, world');
