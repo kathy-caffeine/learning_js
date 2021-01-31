@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: Poppins;
+    color: rgb(34, 34, 34);
+}
+
+.navbar-brand img{
+    width: 150;
+}
