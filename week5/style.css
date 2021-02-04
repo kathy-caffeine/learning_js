@@ -6,9 +6,12 @@ body, html{
     color: rgb(34, 34, 34);
 }
 
-.navbar-brand img{
-    height: 20;
+.navbar-brand span{
+    font-size: x-large;
+}
 
+.navbar-brand img{
+    height: 40px;
 }
 
 .navbar-nav li {
