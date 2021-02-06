@@ -23,10 +23,14 @@ body, html{
 }
 
 .carousel-inner img{
-    transform: translateY(-20%);
-    width: 100%;
     height: 100%;
     text-align: center;
+}
+
+@media (min-width: 990px) {
+    .carousel-inner img{
+        width: 100%;
+    }
 }
 
 .carousel-caption{
@@ -34,4 +38,41 @@ body, html{
     top: 50%;
     transform: translateY(-50%);
     text-shadow: 1px 1px 10px brown;
+}
+
+@media (max-width: 450px) {
+    .carousel-caption .display-2 {
+        font-size: 3em;
+    }
+}
+
+.jumbotron {
+    padding: 1em;
+    border-radius: 0%;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.padding {
+    padding-bottom: 2em;
+}
+
+.alert {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.alert hr {
+    border-top: 2px solid lightgray;
+    width: 75%;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+.fa-coffee {
+    color: brown;
+    font-size: 4em;
+    margin: 1em;
 }
