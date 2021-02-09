@@ -76,3 +76,21 @@ body, html{
     font-size: 4em;
     margin: 1em;
 }
+#fixed {
+    height: 600px;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 4px solid whitesmoke;
+    background: url("pict/bg.jpg") no-repeat center center fixed;
+    background-size: cover ;
+        
+}
+
+#gifs {
+    margin-bottom: 20px;
+}
+
+#gift img{
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
