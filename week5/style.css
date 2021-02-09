@@ -54,6 +54,12 @@ body, html{
     margin-top: 25px;
 }
 
+@media (max-width: 750px){
+    .display-4{
+        font-size: 1.5em;
+    }
+}
+
 .padding {
     padding-bottom: 2em;
 }
@@ -93,4 +99,17 @@ body, html{
     max-width: 100%;
     max-height: 200px;
     margin-bottom: 20px;
+}
+
+.social a{
+    font-size: 2em;
+    padding: 1em;
+    color: yellow;
+}
+
+footer {
+    background-color: blueviolet;
+    padding-top: 50px;
+    border-top: 4px solid silver;
+    color: whitesmoke;
 }
