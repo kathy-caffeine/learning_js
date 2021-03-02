@@ -6,78 +6,18 @@ body, html{
     color: rgb(34, 34, 34);
 }
 
-.jumbotron {
-    padding: 1em;
-    border-radius: 0%;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 25px;
-}
-
-@media (max-width: 750px){
-    .display-4{
-        font-size: 1.5em;
-    }
-}
-
 .padding {
     padding-bottom: 2em;
 }
 
 .padding img {
-    width: 90px;
+    width: 80px;
 }
 
 .rc {
     background-color: blueviolet;
 }
 
-.alert {
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2em;
-}
-
-.alert hr {
-    border-top: 2px solid lightgray;
-    width: 75%;
-    margin-top: 0.3em;
-    margin-bottom: 1em;
-}
-
-.fa-coffee {
-    color: brown;
-    font-size: 4em;
-    margin: 1em;
-}
-#fixed {
-    height: 600px;
-    border-top: 1px solid whitesmoke;
-    border-bottom: 4px solid whitesmoke;
-    background: url("pict/bg.jpg") no-repeat center center fixed;
-    background-size: cover ;
-        
-}
-
-#gifs {
-    margin-bottom: 20px;
-}
-
-#gift img{
-    max-width: 100%;
-    max-height: 200px;
-    margin-bottom: 20px;
-}
-
-.social a{
-    font-size: 2em;
-    padding: 1em;
-    color: yellow;
-}
-
-footer {
-    background-color: blueviolet;
-    padding-top: 50px;
-    border-top: 4px solid silver;
-    color: whitesmoke;
+.li{
+    color: blueviolet;
 }
